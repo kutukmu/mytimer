@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="400" height="400">
+      <circle
+        id="circle"
+        cx="200"
+        cy="200"
+        r="100"
+        fill="transparent"
+        stroke="rgb(19, 41, 139)"
+        stroke-width="10"
+        stroke-dashoffset="0"
+        transform="rotate(-90 200 200)"
+      ></circle>
+    </svg>
+
+    <input type="text" id="time" value="30" />
+    <button id="start"><i class="fas fa-play fa-2x"></i></button>
+    <button id="pause"><i class="fas fa-pause fa-2x"></i></button>
+
+    <script
+      src="https://kit.fontawesome.com/858e563b35.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="timer.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

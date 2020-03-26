@@ -1,0 +1,29 @@
+#time {
+  position: absolute;
+  top: 170px;
+  left: 190px;
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 45px;
+}
+
+#start {
+  position: absolute;
+  top: 230px;
+  left: 160px;
+  margin-left: 0;
+}
+
+#pause {
+  position: absolute;
+  top: 230px;
+  left: 220px;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
